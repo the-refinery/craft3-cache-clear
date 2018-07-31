@@ -40,4 +40,4 @@ Some things to do, and ideas for potential features:
 
 * Release it
 
-Brought to you by [Brady Bonnette](http://the-refinery.io)
+Brought to you by [The Refinery](https://the-refinery.io)

@@ -16,9 +16,8 @@ To install the plugin, follow these instructions.
 
 		"repositories": [
 			{
-				"type": "git",
-				"url": "https://github.com/the-refinery/craft3-cache-clear.git",
-				"reference": "origin/master"
+				"type": "github",
+				"url": "git@github.com:the-refinery/craft3-cache-clear.git"
 			}
 		]
 

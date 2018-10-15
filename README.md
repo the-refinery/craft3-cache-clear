@@ -1,12 +1,8 @@
 # CacheClear plugin for Craft CMS 3.x
 
-This is a generic Craft CMS plugin
-
-![Screenshot](resources/img/plugin-logo.png)
-
 ## Requirements
 
-This plugin requires Craft CMS 3.0.0-beta.23 or later.
+This plugin requires Craft CMS 3.0.0 or later.
 
 ## Installation
 
@@ -16,28 +12,28 @@ To install the plugin, follow these instructions.
 
         cd /path/to/project
 
-2. Then tell Composer to load the plugin:
+2. Manually add the repository to your composer.json since this plugin is not listed on packagist
 
-        composer require /cache-clear
+		"repositories": [
+			{
+				"type": "git",
+				"url": "https://github.com/the-refinery/craft3-cache-clear.git",
+				"reference": "origin/master"
+			}
+		]
 
-3. In the Control Panel, go to Settings → Plugins and click the “Install” button for CacheClear.
+3. Then install the plugin:
+
+		composer require the-refinery/cache-clear
+
+4. In the Control Panel, go to Settings → Plugins and click the “Install” button for CacheClear.
 
 ## CacheClear Overview
 
--Insert text here-
+Clears cache upon deployment
 
 ## Configuring CacheClear
 
--Insert text here-
-
 ## Using CacheClear
 
--Insert text here-
-
 ## CacheClear Roadmap
-
-Some things to do, and ideas for potential features:
-
-* Release it
-
-Brought to you by [The Refinery](https://the-refinery.io)

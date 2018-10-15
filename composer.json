@@ -2,7 +2,7 @@
     "name": "the-refinery/cache-clear",
     "description": "This is a CraftCMS v3.X plugin which allows you to clear specific caches from the command line using the CraftCMS console.",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "craft",
         "cms",
@@ -23,7 +23,7 @@
         }
     ],
     "require": {
-        "craftcms/cms": "^3.0.0-RC1"
+        "craftcms/cms": "^3.0.0"
     },
     "autoload": {
         "psr-4": {
@@ -35,7 +35,7 @@
         "handle": "cache-clear",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "???",
+        "changelogUrl": "https://github.com/the-refinery/craft3-cache-clear/blob/master/CHANGELOG.md",
         "class": "therefinery\\cacheclear\\CacheClear"
     }
 }
